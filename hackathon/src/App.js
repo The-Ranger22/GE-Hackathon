@@ -1,13 +1,25 @@
 import React from 'react';
+import firebase from "firebase";
 
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <h>NKU | Random Access</h>
-    </div>
+  let iUsername;
+  let iPassword;
+
+
+  return(
+      <div>
+          <h>Hello!</h>
+      </div>
   );
+
+
+
+
+
+
+
 }
 
 export default App;
